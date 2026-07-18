@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Dark Chocolate Store</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Dark Chocolate Store</h1>
+
+<p>Premium Handmade Chocolates</p>
+
+</header>
+
+
+<section>
+
+<h2>Our Chocolates</h2>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Classic Dark Chocolate</h3>
+
+<p>₹120</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Almond Dark Chocolate</h3>
+
+<p>₹150</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Hazelnut Dark Chocolate</h3>
+
+<p>₹180</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2>Order Now</h2>
+
+
+<form id="orderForm">
+
+
+<input type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+
+<input type="text"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+
+<textarea
+id="address"
+placeholder="Delivery Address"
+required>
+</textarea>
+
+
+<select id="product">
+
+<option>Classic Dark Chocolate</option>
+
+<option>Almond Dark Chocolate</option>
+
+<option>Hazelnut Dark Chocolate</option>
+
+</select>
+
+
+
+<input type="number"
+id="quantity"
+placeholder="Quantity"
+required>
+
+
+
+<button type="button"
+onclick="sendOrder()">
+
+Place Order
+
+</button>
+
+
+</form>
+
+
+</section>
+
+
+<footer>
+
+<p>Thank You For Ordering.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
